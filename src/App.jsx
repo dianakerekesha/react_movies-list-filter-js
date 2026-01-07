@@ -56,12 +56,7 @@ export const App = () => {
           </div>
         </div>
 
-        <MoviesList
-          movies={visibleMovies}
-          filterBy={newQuery => {
-            setQuery(newQuery);
-          }}
-        />
+        <MoviesList movies={visibleMovies} />
       </div>
 
       <div className="sidebar">Sidebar goes here</div>
